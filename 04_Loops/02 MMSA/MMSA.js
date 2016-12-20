@@ -1,13 +1,12 @@
 function solve(args) {
-    var len = args.length,
-        currentNumberIndex = 0,
+    var len = args.length ,
         min = 10000,
         max = -10000,
         sum = 0,
         number;
 
-    do {
-        number = +args[currentNumberIndex];
+    for (var i = 0; i < len; i += 1) {
+        number = +args[i];
 
         if (min > number) {
             min = number;
@@ -17,8 +16,7 @@ function solve(args) {
         }
 
         sum += number;
-        currentNumberIndex += 1;
-    } while (currentNumberIndex != len);
+    }
 
     console.log('min=' + min.toFixed(2));
     console.log('max=' + max.toFixed(2));
