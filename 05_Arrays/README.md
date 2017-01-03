@@ -10,3 +10,7 @@
 1. [Selection sort](./05-Selection-Sort)
 1. [Most frequent number](./06-Most-Frequent-Number)
 1. [Binary search](./07-Binary-Search)
+1. [Subset with sum S](./08-Subset-With-Sum-S)
+1. [Permutations of set](./09-Permutations-Of-Set)
+1. [Prime numbers](./10-Prime-Numbers)
+1. [Find sum in array](./11-Find-Sum-In-Array)
