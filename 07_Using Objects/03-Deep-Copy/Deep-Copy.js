@@ -30,11 +30,7 @@ console.log('Original object1: ');
 console.log(obj1);
 console.log('Deep-copied object2: ');
 console.log(obj2);
-obj1 = {
-		name: 'ivan',
-		age: 41,
-		membership: 'suspended'
-	},
+obj1.membership = 'suspended';
 console.log('Changed object1: ');
 console.log(obj1);
 console.log('Deep-copied object2: ');
