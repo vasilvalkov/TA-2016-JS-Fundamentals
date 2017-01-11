@@ -1,8 +1,9 @@
 "use strict";
+
 function solve(args) {
     let num = +args[0],
         boolArr = [],
-       // boolArr = Array(num + 1).fill(true),
+        // boolArr = Array(num + 1).fill(true),
         x = 1,
         sqrt = ~~Math.sqrt(num);
 
